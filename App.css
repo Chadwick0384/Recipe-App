@@ -1,0 +1,49 @@
+.App {
+  min-height: 100vh;
+  background-image: url("./wp1955174-cooking-wallpapers.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  padding: 7px;
+}
+
+.search-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  margin: auto;
+}
+
+.search-bar {
+  width: 30%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: rgb(73, 73, 72);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+
+@media (max-width: 767px) {
+  .recipes {
+    grid-template-columns: 1fr;
+  }
+}
+
